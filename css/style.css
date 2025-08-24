@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #D6D6D6;
+}
+
+/* CONTEÚDO DO SITE */
+
+#menu-opt {
+    width: 100%;
+    height: 0px;
+    background-color: #fff;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#indisponivel {
+    padding: 0px 15px;
+    text-align: center;
+    display: none;
+}
+
+#indisponivel h2, #indisponivel p {
+    font-family: "Inter", sans-serif;
+}
+
+.menu {
+    display: none;
+}
+
+.menu > i {
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 75px;
+    background-color: #fff;
+}
+
+.logo img {
+    width: 110%;
+}
+
+#navPC ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+#navMob ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+
+#navPC a { 
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    transition: color, 0.3s;
+}
+
+#navMob a {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    text-decoration: none;
+    transition: color, 0.3s;
+}
+
+#navMob {
+    display: none;
+}
+
+#reciclarBtn {
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    padding: 13px 30px;
+    transition: scale 0.5s;
+    cursor: pointer;
+}
+
+#reciclarBtnMob {
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    padding: 8px 15px;
+    transition: scale 0.5s;
+    cursor: pointer;
+}
+
+.c-white {
+    color: #fff;
+}
+
+#reciclarIcon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#user {
+    font-size: 30px;
+    color: #1a1a1a;
+    transition: color, 0.3s;    
+}
+
+#user:hover {
+    color: #4CAF4F;
+}
+
+.nav1 {
+    color: black;
+}
+
+.nav1:hover {
+    color: #4CAF4F;
+    transition: color, 0.3s;
+}
+
+#reciclarBtn:hover, #reciclarBtnMob:hover {
+    scale: 1.05;
+    transition: scale 0.5s;
+}

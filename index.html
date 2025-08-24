@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReSolar</title>
+    <link rel="icon" type="image/x-icon" href="/assets/imgs/LogoSemNome.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="indisponivel">
+        <h2>Site indisponível para sua resolução de tela</h2>
+        <p>Lamentamos por isto! &#128546;</p>
+    </div>
+
+    <header>
+        <div class="logo">
+            <img src="assets/imgs/Logo.svg" alt="Logo">
+        </div>
+
+        <nav id="navPC">
+            <ul>
+                <li><a class="nav1" href="">Nosso propósito</a></li>
+                <li><a class="nav1" href="">Funcionamento</a></li>
+                <li><a class="nav1" href="">Dúvidas</a></li>
+                <li><a class="nav1" href="">Contato</a></li>
+                <li id="reciclarBtn">
+                    <i id="reciclarIcon" class="fa-solid fa-recycle c-white"></i>
+                    <a id="reciclar" class="c-white" href="">Reciclar</a>
+                </li>
+                <li>
+                    <a href="">
+                        <i id="user" class="fa-solid fa-circle-user nav1"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="menu">
+            <i onclick="abrirMenu()" id="menuIcon" class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <div id="menu-opt">
+        <nav id="navMob">
+            <ul>
+                <li><a class="nav1" href="">Nosso propósito</a></li>
+                <li><a class="nav1" href="">Funcionamento</a></li>
+                <li><a class="nav1" href="">Dúvidas</a></li>
+                <li><a class="nav1" href="">Contato</a></li>
+                <li id="reciclarBtnMob">
+                    <i id="reciclarIconMob" class="fa-solid fa-recycle c-white"></i>
+                    <a id="reciclarMob" class="c-white" href="">Reciclar</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
