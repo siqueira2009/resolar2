@@ -9,7 +9,9 @@ function abrirMenu() {
         navMob.style.transition = "opacity 0.2s";
         void navMob.offsetWidth;
         navMob.style.opacity = "1";
-        menu.style.height = "60px";
+        let altura = navMob.offsetHeight + "px";
+        menu.style.height = altura;
+        menu.style.paddingBottom = "15px";
         menu.style.transition = "height 0.3s";
     } else {
         menu.style.height = "0px";
@@ -18,7 +20,10 @@ function abrirMenu() {
         navMob.style.transition = "opacity 0.2s";
         setTimeout(() => {
             navMob.style.display = "none";
-        }, 200);
+        }, 100);
+        setTimeout(() => {
+            menu.style.padding = "0px";
+        }, 100);
     }
 
     menuAberto = !menuAberto;

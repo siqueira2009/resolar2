@@ -10,14 +10,8 @@ body {
 
 /* CONTEÚDO DO SITE */
 
-#menu-opt {
-    width: 100%;
-    height: 0px;
-    background-color: #fff;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#menu-opt, #navMob {
+    display: none;
 }
 
 #indisponivel {
@@ -57,13 +51,6 @@ header {
     gap: 30px;
 }
 
-#navMob ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 15px;
-}
-
 #navPC a { 
     font-family: "Inter", sans-serif;
     font-weight: 500;
@@ -72,31 +59,10 @@ header {
     transition: color, 0.3s;
 }
 
-#navMob a {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 12px;
-    text-decoration: none;
-    transition: color, 0.3s;
-}
-
-#navMob {
-    display: none;
-}
-
 #reciclarBtn {
     background-color: #4CAF4F;
     border-radius: 4px;
     padding: 13px 30px;
-    transition: scale 0.5s;
-    cursor: pointer;
-}
-
-#reciclarBtnMob {
-    background-color: #4CAF4F;
-    border-radius: 4px;
-    padding: 8px 15px;
     transition: scale 0.5s;
     cursor: pointer;
 }
@@ -129,7 +95,7 @@ header {
     transition: color, 0.3s;
 }
 
-#reciclarBtn:hover, #reciclarBtnMob:hover {
+#reciclarBtn:hover {
     scale: 1.05;
     transition: scale 0.5s;
 }
