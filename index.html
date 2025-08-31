@@ -26,7 +26,7 @@
                 <li><a class="nav1" href="">Funcionamento</a></li>
                 <li><a class="nav1" href="">Dúvidas</a></li>
                 <li><a class="nav1" href="">Contato</a></li>
-                <li id="reciclarBtn">
+                <li id="reciclarBtn" onmouseover="girarIcon()" onmouseout="desgirarIcon()">
                     <i id="reciclarIcon" class="fa-solid fa-recycle c-white"></i>
                     <a id="reciclar" class="c-white" href="">Reciclar</a>
                 </li>
@@ -41,19 +41,35 @@
         <div class="menu">
             <i onclick="abrirMenu()" id="menuIcon" class="fa-solid fa-bars"></i>
         </div>
+
+        <div id="menu-opt">
+            <nav id="navMob">
+                <ul>
+                    <a style="width: 100%;" href=""><li><a class="nav1" href="">Nosso propósito</a></li></a>
+                    <li><a class="nav1" href="">Funcionamento</a></li>
+                    <li><a class="nav1" href="">Dúvidas</a></li>
+                    <li><a class="nav1" href="">Contato</a></li>
+                    <li><a class="nav1" href="">Reciclar</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div id="menu-opt">
-        <nav id="navMob">
-            <ul>
-                <a style="width: 100%;" href=""><li><a class="nav1" href="">Nosso propósito</a></li></a>
-                <li><a class="nav1" href="">Funcionamento</a></li>
-                <li><a class="nav1" href="">Dúvidas</a></li>
-                <li><a class="nav1" href="">Contato</a></li>
-                <li><a class="nav1" href="">Reciclar</a></li>
-            </ul>
-        </nav>
+    <div class="hero-section">
+        <table width="100%" height="100%">
+            <tr>
+                <td id="heroText">
+                    <h1><span>Receba</span> pelo descarte correto</h1>
+                    <p>Participe do processo de reciclagem do seu painel e receba por isto.</p>
+                    <button><i class="fa-solid fa-arrow-down"></i>Saber mais</button>
+                </td>
+                <td id="heroImg">
+                    <img src="assets/imgs/svgs/Dinheiro.svg" alt="">
+                </td>
+            </tr>
+        </table>
     </div>
+
     <script src="js/script.js"></script>
 </body>
 </html>
