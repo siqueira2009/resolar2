@@ -103,7 +103,7 @@ header {
 .hero-section {
     height: 500px;
     background-color: #F5F7FA;
-    padding: 0px 80px;
+    padding-left: 80px;
 }
 
 .hero-section td {
