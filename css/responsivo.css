@@ -79,7 +79,7 @@
     }
 
     .hero-section {
-        height: 350px;
+        height: 100%;
 
         padding-right: 40px;
         padding-left: 40px;
@@ -88,5 +88,18 @@
     .hero-section td {
         width: 100%;
         height: 350px;
+    }
+
+    #heroText h1 {
+        line-height: 50px;
+    }
+
+    #heroText {
+        height: auto;
+        padding: 10px 0px;
+    }
+    .iconesResponsivo {
+        margin-right: 10px;
+        font-size: 20px;  
     }
 }

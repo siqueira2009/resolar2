@@ -35,10 +35,10 @@ let reciclarIcon = document.getElementById('reciclarIcon');
 
 function girarIcon() {
     reciclarIcon.style.rotate = '360deg';
-    reciclarIcon.style.transition = 'rotate 0.5s';
+    reciclarIcon.style.transition = 'rotate 1s';
 }
 
 function desgirarIcon() {
     reciclarIcon.style.rotate = '0deg';
-    reciclarIcon.style.transition = 'rotate 0.5s';
+    reciclarIcon.style.transition = 'rotate 1s';
 }

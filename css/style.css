@@ -101,9 +101,11 @@ header {
 }
 
 .hero-section {
-    height: 500px;
+    height: auto;
     background-color: #F5F7FA;
     padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hero-section td {
@@ -180,5 +182,5 @@ header {
 }
 
 #heroImg img {
-    width: 60%;
+    height: 100%;
 }
