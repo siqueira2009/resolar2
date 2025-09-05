@@ -30,6 +30,7 @@ function abrirMenu() {
 }
 
 // ------------------------------------------------
+
 let btnReciclar = document.getElementById('reciclarBtn');
 let reciclarIcon = document.getElementById('reciclarIcon');
 
@@ -41,4 +42,22 @@ function girarIcon() {
 function desgirarIcon() {
     reciclarIcon.style.rotate = '0deg';
     reciclarIcon.style.transition = 'rotate 1s';
+}
+
+// ------------------------------------------------
+
+let btnSaberMais = document.getElementById('saberMais');
+let saberMaisIcon = document.getElementById('saberMaisIcon');
+
+function saberMaisAnim() {
+    saberMaisIcon.style.marginBottom = '10px';
+    saberMaisIcon.style.transition = 'margin-bottom 0.35s';
+
+    setTimeout(() => {
+        saberMaisIcon.style.marginBottom = '-10px';
+    }, 350);
+
+    setTimeout(() => {
+        saberMaisIcon.style.marginBottom = '0px';
+    }, 700);
 }
